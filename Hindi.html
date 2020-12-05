@@ -1,0 +1,204 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>image slider</title>
+		<link rel="stylesheet" href="Hindi.css" />
+		<link rel="stylesheet" href="index5.css" />
+	</head>
+	<body>
+	<ul id="social_button">
+				<li><a href="http://facebook.com" target="_blank"><img src="img/facebook.png"></a></li>
+				<li><a href="http://gplus.com" target="_blank"><img src="img/gplus.png"></a></li>
+				<li><a href="http://twiter.com" target="_blank"><img src="img/twitter.png"></a></li>
+				<li><a href="http://youtube.com" target="_blank"><img src="img/youtube.png"></a></li>
+			</ul>
+		<section class="header">
+		<div id="contain">
+						<h1>Songs Duniya</h1>
+						<p>This is about songs platfrom</p>
+					</div>
+			<div id="main_section" id="sticker">
+					
+					<div id="menu" dir="rtl">
+						<ul>
+							<li><a href="index5.html">Home</a></li>
+							<li><a href="#">Songs</a>
+								<ul>
+									<li><a href="#">Hindi</a></li>
+									<li><a href="Bangla.html">Bangla</a></li>
+									<li><a href="#">English</a></li>
+								</ul>
+							</li>
+							<li><a href="index5.html">About</a></li>
+							<li><a href="index5.html">Contact</a></li>
+						</ul>
+					</div>
+				
+						<input type="text" name="search" placeholder="search songs"/>
+						<a href="http://google.com"><button type="button">search</button></a>
+			</div>
+		</section>
+		<section class="content">
+		<div id="main_content">
+			<div id="details">
+				<h1>Hindi Audio Songs</h1>
+			</div>
+			<div id="box">
+				<div id="imgbox">
+					<figure>
+						<a href="media/habib.mp4"><img src="img/university1.jpg" alt="" /></a>
+						<figcaption>jhora pata-habib.mp3</figcaption>
+					</figure>
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				
+				<span id="more">
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				</span>
+				<button type="button" id="read" onclick="read()">More</button>
+			
+			<div id="details">
+				<h1>Hindi video Songs</h1>
+			</div>
+			<div id="box">
+				<div id="imgbox">
+					<figure>
+						<a href="media/habib.mp4"><img src="img/university1.jpg" alt="" /></a>
+						<figcaption>jhora pata-habib.mp4</figcaption>
+					</figure>
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				
+				<span id="extra">
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				<div id="box">
+				<div id="imgbox">
+					
+				</div>
+				</div>
+				</span>
+				<button type="button" id="few" onclick="few()">More</button>
+				</div>
+			<div id="footer">
+				<p>&copy; copy right by Anik Barua</p>
+			</div>
+		</section>
+		
+		<script type="text/javascript">
+			var i=0;
+			function read(){
+				if(!i){
+					document.getElementById("more").style.display="inline";
+					document.getElementById("read").innerHTML="Less";
+					i=1;
+				}
+				else{
+					document.getElementById("more").style.display="none";
+					document.getElementById("read").innerHTML="More";
+					i=0;
+				}
+			
+			}
+		</script>
+		<script type="text/javascript">
+			var i=0;
+			function few(){
+				if(!i){
+					document.getElementById("extra").style.display="inline";
+					document.getElementById("few").innerHTML="Less";
+					i=1;
+				}
+				else{
+					document.getElementById("extra").style.display="none";
+					document.getElementById("few").innerHTML="More";
+					i=0;
+				}
+			
+			}
+		</script>
+	</body>
+</html>
